@@ -4,7 +4,7 @@ import java.util.Random;
 
 /**
  * Author: Chidiebere Okafor
- * Purpose of Class: Isn't it obvious?
+ * Purpose of Class: Implements the SocialAgent class and defines the behaviors of social agents.
  */
 public class SocialAgent extends Agent{
     // Remove this redundant field - it's already in the parent class

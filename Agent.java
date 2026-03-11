@@ -2,7 +2,7 @@ import java.awt.Graphics;
 
 /**
  * Author: Chidiebere Okafor
- * Purpose of Class: Isn't it obvious?
+ * Purpose of Class: Create an Agent class and defines some basic parameters an agent posesess. 
  */
 public abstract class Agent{
 

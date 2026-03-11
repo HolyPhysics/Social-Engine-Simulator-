@@ -2,7 +2,7 @@ import java.util.Iterator;
 
 /**
  * Author: Chidiebere Okafor
- * Purpose of Class: Isn't it obvious?
+ * Purpose of Class: Implements a generic LinkedList Data Structure
  */
 public class LinkedList<T> implements Iterable<T> {
 

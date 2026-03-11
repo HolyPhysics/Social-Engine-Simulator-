@@ -4,7 +4,7 @@ import java.util.Random;
 
 /**
  * Author: Chidiebere Okafor
- * Purpose of Class: Isn't it obvious?
+ * Purpose of Class: Creates the Landscape to where the Agents live and interact on. 
  */
 public class Landscape {
     private int width;

@@ -6,6 +6,7 @@ last modified:  03/04/2025
 How to run:     java -ea LandscapeTests
 */
 
+/* Completed by Chidiebere Okafor */
 public class LandscapeTests {
 
     public static double landscapeTests() {
@@ -16,6 +17,14 @@ public class LandscapeTests {
         {
 
             //TODO
+            Landscape scape = new Landscape(100, 100);
+
+            if ((scape.getHeight() == 100) && (scape.getWidth() == 100) & (scape.toString() != null) ) {
+                System.out.println("Landscape constructor correctly implemented");
+                score += 1.0;
+            } else {
+                System.out.println("Landscape constructor incorrectly implemented");
+            }
         
         }
 
@@ -23,6 +32,14 @@ public class LandscapeTests {
         {
 
             //TODO
+            Landscape scape = new Landscape(100, 100);
+
+            if ( scape.getWidth() == 100 ) {
+                System.out.println("Landscape constructor correctly implemented");
+                score += 1.0;
+            } else {
+                System.out.println("Landscape constructor incorrectly implemented");
+            }
 
         }
 
@@ -30,9 +47,18 @@ public class LandscapeTests {
         {
             
             //TODO
+            Landscape scape = new Landscape(100, 100);
+
+            if ( scape.getHeight() == 100 ) {
+                System.out.println("Landscape constructor correctly implemented");
+                score += 1.0;
+            } else {
+                System.out.println("Landscape constructor incorrectly implemented");
+            }
 
         }
 
+        System.out.println("Total score: " + score + "/3.0");
         return score ;
     }
 
