@@ -1,3 +1,5 @@
+import java.awt.Graphics;
+
 /**
  * Author: Chidiebere Okafor
  * Purpose of Class: Isn't it obvious?
@@ -68,7 +70,7 @@ public abstract class Agent{
      * @param newY the new value of the y position
     */
     public void setY( double newY){
-        this.x = newY;
+        this.y = newY;
     }
 
     /** Sets the value of the radius
@@ -76,7 +78,7 @@ public abstract class Agent{
      * @param newRadius the new value of the radius
     */
     public void setRadius( int newRadius){
-        this.x = newRadius;
+        this.radius = newRadius;
     }
 
     @Override
